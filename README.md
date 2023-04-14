@@ -21,3 +21,5 @@ lateral, use as opções disponíveis para realizar as manipulações desejadas
 sobre o objeto selecionado.
 
 OBS: Atualmente os únicos símbolos modelados são L, U, I e Z.
+
+![screenshot](screenshot.png)  

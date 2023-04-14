@@ -335,7 +335,7 @@ impl Object{
                 self.line_index_buffer.push((origin_index + vert_len) as u32);
                 self.line_index_buffer.push((destination_index + vert_len) as u32);
 
-                if Rc::strong_count(&edge) == 1 {
+                if Rc::strong_count(&edge) == 2 {
                     self.line_index_buffer.push(origin_index as u32);
                     self.line_index_buffer.push((origin_index + vert_len) as u32);
 
