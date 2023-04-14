@@ -1,0 +1,21 @@
+[package]
+name = "letras3d"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = { version = "1.5", features = [ "derive" ] }
+cgmath = "0.18"
+env_logger = "0.10"
+futures = "0.3"
+log = "0.4"
+nalgebra = "0.32"
+pollster = "0.2"
+
+winit = { version = "0.25", features = ["web-sys"] }
+egui = "0.15"
+egui_winit_platform = "0.11"
+wgpu = "0.11"
+egui_wgpu_backend = "0.14"
