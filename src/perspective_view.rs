@@ -26,7 +26,7 @@ impl PerspectiveView {
         let shader = device.create_shader_module(&wgpu::ShaderModuleDescriptor {
             label: Some(&(label.to_string() + "-shader")),
             source: wgpu::ShaderSource::Wgsl(
-                Cow::Borrowed(include_str!("orthographic_view_front.wgsl"))
+                Cow::Borrowed(include_str!("perspective_view.wgsl"))
             ),
         });
 
